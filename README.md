@@ -38,6 +38,15 @@ The **Woof** app follows **Material Design principles** to ensure a consistent, 
 
 ---
 
+### 🔤 Typography
+
+- Learned and applied **Material Typography principles**
+- Used **Abril Fatface** font for **dog names** to create a bold and expressive look  
+- Used **Montserrat** font for **dog age and supporting text** for clean readability  
+- Maintains proper hierarchy between headings and supporting content  
+
+---
+
 ### 🔷 Shape Customization
 
 - Implemented **rounded shapes** for images and cards  
