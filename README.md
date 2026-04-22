@@ -38,6 +38,14 @@ The **Woof** app follows **Material Design principles** to ensure a consistent, 
 
 ---
 
+### 🔷 Shape Customization
+
+- Implemented **rounded shapes** for images and cards  
+- Uses **Material Theming (Shape system)** provided by the **Google Android Developers pathway**  
+- Enhances visual consistency and modern UI feel across the app  
+
+---
+
 ### 🌙 Dark Mode Support (Optional)
 
 - Colors are adjusted to maintain readability in low-light conditions
