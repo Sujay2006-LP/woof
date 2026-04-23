@@ -1,78 +1,83 @@
-## 🎨 Color System
+## 🎨 UI & Theming Overview
 
-The **Woof** app follows **Material Design principles** to ensure a consistent, accessible, and visually appealing user experience. The color system is designed with clarity, hierarchy, and usability in mind.
-
-### 🌈 Color Philosophy
-
-- Uses a **primary color** to define the app’s identity
-- Supports **secondary and tertiary colors** for accents and emphasis
-- Maintains proper **contrast ratios** for readability and accessibility
-- Adapts to both **light and dark themes** (if applicable)
+The **Woof** app is built using **Material Design principles**, focusing on consistency, accessibility, and modern UI practices. The implementation combines color, typography, shape, and layout components to create a clean and engaging user experience.
 
 ---
+
+## 🌈 Color System
+
+The color system is designed to maintain clarity, hierarchy, and usability across the app.
+
+### Key Highlights
+
+- Uses a **primary color** to define brand identity  
+- Includes **secondary and supporting colors** for accents  
+- Maintains proper **contrast ratios** for accessibility  
+- Structured to support **light and dark themes**  
 
 ### 🎯 Color Roles
 
 | Role            | Purpose |
 |-----------------|--------|
-| **Primary**     | Main brand color used across key UI elements like buttons, app bar |
-| **On Primary**  | Text/icons displayed on primary color |
-| **Secondary**   | Used for less prominent components and accents |
-| **Background**  | App background color |
-| **Surface**     | Cards, sheets, and containers |
-| **Error**       | Indicates errors or destructive actions |
+| **Primary**     | Main UI elements (buttons, app bar) |
+| **On Primary**  | Text/icons on primary color |
+| **Secondary**   | Supporting accents |
+| **Background**  | Screen background |
+| **Surface**     | Cards and containers |
+| **Error**       | Error states |
 
 ---
 
-### 🎨 Defined Colors
+## 🔤 Typography
 
-| Name            | Hex Code  | Usage |
-|-----------------|----------|------|
-| Primary         | `#XXXXXX` | Main UI elements |
-| Secondary       | `#XXXXXX` | Supporting accents |
-| Background      | `#XXXXXX` | Screen background |
-| Surface         | `#XXXXXX` | Cards & containers |
-| Error           | `#XXXXXX` | Error states |
+Typography is used to establish strong visual hierarchy and readability.
 
-> Replace `#XXXXXX` with your actual color values.
+### Implementation
 
----
-
-### 🔤 Typography
-
-- Learned and applied **Material Typography principles**
-- Used **Abril Fatface** font for **dog names** to create a bold and expressive look  
-- Used **Montserrat** font for **dog age and supporting text** for clean readability  
-- Maintains proper hierarchy between headings and supporting content  
+- Applied **Material Typography guidelines**  
+- **Abril Fatface** → Used for **dog names** (bold, expressive)  
+- **Montserrat** → Used for **dog age and supporting text** (clean, readable)  
+- Clear distinction between **primary and secondary text content**  
 
 ---
 
-### 🔷 Shape Customization
+## 🔷 Shape System
 
-- Implemented **rounded shapes** for images and cards  
-- Uses **Material Theming (Shape system)** provided by the **Google Android Developers pathway**  
-- Enhances visual consistency and modern UI feel across the app  
+Shape customization enhances the overall look and feel of the app.
 
----
-
-### 🌙 Dark Mode Support (Optional)
-
-- Colors are adjusted to maintain readability in low-light conditions
-- Uses darker backgrounds with lighter text
-- Ensures **WCAG contrast standards** are maintained
+- Implemented **rounded corners** for cards and images  
+- Used **Material Shape system** from the :contentReference[oaicite:0]{index=0} pathway  
+- Ensures **consistency across UI components**  
 
 ---
 
-### ♿ Accessibility
+## 📱 App Bar (Top Navigation)
 
-- Ensures sufficient contrast between text and background
-- Avoids color-only communication (icons/text are also used)
-- Follows Material guidelines for inclusive design
+- Implemented **CenterAlignedTopAppBar**  
+- Provides a **balanced and modern header layout**  
+- Keeps the app title centered for better visual alignment  
+- Follows **Material 3 guidelines** for top app bars  
 
 ---
 
-### 📌 Notes
+## 🌙 Dark Mode Support (Optional)
 
-- Colors are centralized for easy updates and scalability
-- Designed to maintain consistency across all screens
-- Future enhancements may include dynamic theming
+- Designed to adapt to **low-light environments**  
+- Uses darker surfaces with lighter text  
+- Maintains **WCAG contrast standards**  
+
+---
+
+## ♿ Accessibility
+
+- Ensures **sufficient contrast** between text and background  
+- Avoids reliance on color alone (uses text/icons as well)  
+- Follows **inclusive design practices** from Material guidelines  
+
+---
+
+## 📌 Notes
+
+- UI elements are **modular and scalable**  
+- Theming is centralized for **easy updates and consistency**  
+- Built as part of learning and applying **modern Android UI development practices**
