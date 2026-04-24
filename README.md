@@ -46,7 +46,7 @@ Typography is used to establish strong visual hierarchy and readability.
 Shape customization enhances the overall look and feel of the app.
 
 - Implemented **rounded corners** for cards and images  
-- Used **Material Shape system** from the :contentReference[oaicite:0]{index=0} pathway  
+- Used **Material Shape system**  
 - Ensures **consistency across UI components**  
 
 ---
@@ -57,6 +57,40 @@ Shape customization enhances the overall look and feel of the app.
 - Provides a **balanced and modern header layout**  
 - Keeps the app title centered for better visual alignment  
 - Follows **Material 3 guidelines** for top app bars  
+
+---
+
+## 🎬 Interactive UI & Animations
+
+The app now includes dynamic interactions to improve user experience and engagement.
+
+### 🔽 Expandable Content
+
+- Added **Expand More / Expand Less functionality**  
+- Allows users to toggle additional dog information  
+- Built using **state-driven UI (remember + mutableStateOf)**  
+
+### 🎞️ Smooth Animations
+
+- Implemented `animateContentSize()` for smooth layout transitions  
+- Avoids abrupt UI changes during expansion and collapse  
+
+### 🌊 Spring-Based Motion
+
+- Used **spring animation** with:
+  - Medium stiffness  
+  - Medium damping ratio  
+- Creates a balanced and natural movement effect  
+
+### 🎨 Interactive Icon Feedback
+
+- Icons dynamically change color based on state (expanded/collapsed)  
+- Provides clear visual feedback to the user  
+
+### 🐶 Enhanced Content Display
+
+- Each dog card now reveals **detailed information on interaction**  
+- Improves usability and content depth  
 
 ---
 
@@ -80,4 +114,4 @@ Shape customization enhances the overall look and feel of the app.
 
 - UI elements are **modular and scalable**  
 - Theming is centralized for **easy updates and consistency**  
-- Built as part of learning and applying **modern Android UI development practices**
+- Built as part of learning and applying **modern Android UI development practices**  
